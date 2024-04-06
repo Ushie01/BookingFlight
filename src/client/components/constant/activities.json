@@ -1,0 +1,1411 @@
+{
+  "status": true,
+  "message": "Success",
+  "timestamp": 1698310237761,
+  "data": {
+    "__typename": "AttractionsProductSearchResponse",
+    "products": [
+      {
+        "__typename": "AttractionsProduct",
+        "cancellationPolicy": {
+          "__typename": "AttractionsCancellationPolicy",
+          "hasFreeCancellation": true
+        },
+        "id": "PR02vbVqub1M",
+        "name": "Découverte nocturne de Mumbai",
+        "slug": "pr02vbvqub1m-mumbai-night-tour",
+        "shortDescription": "Balade nocturne pour découvrir en toute tranquillité des lieux d'intérêt célèbres de Mumbai",
+        "representativePrice": {
+          "__typename": "AttractionsPrice",
+          "chargeAmount": 4159.62,
+          "currency": "INR",
+          "publicAmount": 4159.62
+        },
+        "primaryPhoto": {
+          "__typename": "AttractionsPhoto",
+          "small": "https://q-xx.bstatic.com/xdata/images/xphoto/300x320/142009071.jpg?k=30f6c0464aba39762aeafd2a63bb5727fdc19bcbb7081f0abf00d9dd4b107542&o="
+        },
+        "reviewsStats": {
+          "__typename": "AttractionsProductReviewStats",
+          "allReviewsCount": 5,
+          "percentage": "100%",
+          "combinedNumericStats": {
+            "__typename": "AttractionsProductCombinedReviewStats",
+            "average": 4.7,
+            "total": 3
+          }
+        },
+        "ufiDetails": {
+          "__typename": "AttractionLocationResponse",
+          "bCityName": "Mumbai",
+          "ufi": -2092174,
+          "url": {
+            "__typename": "AttractionLocationUrl",
+            "country": "in"
+          }
+        },
+        "offers": [
+          {
+            "__typename": "Offer",
+            "items": [
+              {
+                "__typename": "OfferItem",
+                "id": "OIGolNa1DbVE"
+              },
+              {
+                "__typename": "OfferItem",
+                "id": "OIGBTlzxxHJb"
+              }
+            ]
+          }
+        ],
+        "supportedFeatures": {
+          "__typename": "AttractionsProductSupportedFeatures",
+          "nativeApp": true
+        },
+        "flags": null
+      },
+      {
+        "__typename": "AttractionsProduct",
+        "cancellationPolicy": {
+          "__typename": "AttractionsCancellationPolicy",
+          "hasFreeCancellation": true
+        },
+        "id": "PRugRDm0UamX",        
+        "name": "Visite en petit groupe du bidonville de Dharavi",
+        "slug": "prugrdm0uamx-small-group-dharavi-slum-tour",
+        "shortDescription": "Une occasion de découvrir l'un des plus grands bidonvilles d'Asie",
+        "representativePrice": {
+          "__typename": "AttractionsPrice",
+          "chargeAmount": 1247.89,
+          "currency": "INR",
+          "publicAmount": 1247.89
+        },
+        "primaryPhoto": {
+          "__typename": "AttractionsPhoto",
+          "small": "https://r-xx.bstatic.com/xdata/images/xphoto/300x320/142000879.jpg?k=4eda102f2173d59d3aa2714d7ccb08e94e32f199640ecd206791d311118b5704&o="
+        },
+        "reviewsStats": {
+          "__typename": "AttractionsProductReviewStats",
+          "allReviewsCount": 11,
+          "percentage": "91%",
+          "combinedNumericStats": {
+            "__typename": "AttractionsProductCombinedReviewStats",
+            "average": 4.9,
+            "total": 11
+          }
+        },
+        "ufiDetails": {
+          "__typename": "AttractionLocationResponse",
+          "bCityName": "Mumbai",
+          "ufi": -2092174,
+          "url": {
+            "__typename": "AttractionLocationUrl",
+            "country": "in"
+          }
+        },
+        "offers": [
+          {
+            "__typename": "Offer",
+            "items": [
+              {
+                "__typename": "OfferItem",
+                "id": "OIQBRCyPPl42"
+              },
+              {
+                "__typename": "OfferItem",
+                "id": "OIMAqjM3hF0K"
+              },
+              {
+                "__typename": "OfferItem",
+                "id": "OI6yA75MGkUr"
+              }
+            ]
+          },
+          {
+            "__typename": "Offer",
+            "items": [
+              {
+                "__typename": "OfferItem",
+                "id": "OIrUbqHFqca5"
+              },
+              {
+                "__typename": "OfferItem",
+                "id": "OIytnbEAcs9g"
+              },
+              {
+                "__typename": "OfferItem",
+                "id": "OIE11gqw34p4"
+              }
+            ]
+          },
+          {
+            "__typename": "Offer",
+            "items": [
+              {
+                "__typename": "OfferItem",
+                "id": "OIR6Z1PVtWEv"
+              },
+              {
+                "__typename": "OfferItem",
+                "id": "OIDLHHr4Y0g9"
+              },
+              {
+                "__typename": "OfferItem",
+                "id": "OIk99DPtwar6"
+              }
+            ]
+          }
+        ],
+        "supportedFeatures": {
+          "__typename": "AttractionsProductSupportedFeatures",
+          "nativeApp": true
+        },
+        "flags": [
+          {
+            "__typename": "AttractionsProductFlags",
+            "flag": "bestseller",
+            "value": true,
+            "rank": 1
+          },
+          {
+            "__typename": "AttractionsProductFlags",
+            "flag": "bestsellerForTours",
+            "value": true,
+            "rank": 1
+          },
+          {
+            "__typename": "AttractionsProductFlags",
+            "flag": "highlyRated",
+            "value": true,
+            "rank": 1
+          },
+          {
+            "__typename": "AttractionsProductFlags",
+            "flag": "popularFor1Traveler",
+            "value": true,
+            "rank": 1
+          }
+        ]
+      },
+      {
+        "__typename": "AttractionsProduct",
+        "cancellationPolicy": {
+          "__typename": "AttractionsCancellationPolicy",
+          "hasFreeCancellation": true
+        },
+        "id": "PRih8otSygtB",
+        "name": "Visite à pied en petit groupe du bidonville de Dharavi",
+        "slug": "prih8otsygtb-small-group-walking-tour-of-dharavi-slum",
+        "shortDescription": "Une visite guidée de 2 à 2 heures et demie",
+        "representativePrice": {
+          "__typename": "AttractionsPrice",
+          "chargeAmount": 1580.66,
+          "currency": "INR",
+          "publicAmount": 1580.66
+        },
+        "primaryPhoto": {
+          "__typename": "AttractionsPhoto",
+          "small": "https://q-xx.bstatic.com/xdata/images/xphoto/300x320/142000468.jpg?k=919163a8813cd94ae81681d2bb197473e598a012fb44b2aaf5f44614558c18d5&o="
+        },
+        "reviewsStats": {
+          "__typename": "AttractionsProductReviewStats",
+          "allReviewsCount": 3,
+          "percentage": "100%",
+          "combinedNumericStats": {
+            "__typename": "AttractionsProductCombinedReviewStats",
+            "average": 4.7,
+            "total": 12
+          }
+        },
+        "ufiDetails": {
+          "__typename": "AttractionLocationResponse",
+          "bCityName": "Mumbai",
+          "ufi": -2092174,
+          "url": {
+            "__typename": "AttractionLocationUrl",
+            "country": "in"
+          }
+        },
+        "offers": [
+          {
+            "__typename": "Offer",
+            "items": [
+              {
+                "__typename": "OfferItem",
+                "id": "OI63ZqvGHKNl"
+              }
+            ]
+          },
+          {
+            "__typename": "Offer",
+            "items": [
+              {
+                "__typename": "OfferItem",
+                "id": "OIIDIflKxfmg"
+              }
+            ]
+          }
+        ],
+        "supportedFeatures": {
+          "__typename": "AttractionsProductSupportedFeatures",
+          "nativeApp": true
+        },
+        "flags": null
+      },
+      {
+        "__typename": "AttractionsProduct",
+        "cancellationPolicy": {
+          "__typename": "AttractionsCancellationPolicy",
+          "hasFreeCancellation": true
+        },
+        "id": "PR0J77uWWdX1",
+        "name": "Visite gastronomique locale en petit groupe",
+        "slug": "pr0j77uwwdx1-small-group-local-food-tour",
+        "shortDescription": "Dégustation de keema et de chaat au cours d'un voyage gourmand préparé par un chef",
+        "representativePrice": {
+          "__typename": "AttractionsPrice",
+          "chargeAmount": 2911.74,
+          "currency": "INR",
+          "publicAmount": 2911.74
+        },
+        "primaryPhoto": {
+          "__typename": "AttractionsPhoto",
+          "small": "https://q-xx.bstatic.com/xdata/images/xphoto/300x320/142003005.jpg?k=1b3a5373871159a92c0c05c23b28fc2dbc5eb2d305450a1941584a0e0d028735&o="
+        },
+        "reviewsStats": {
+          "__typename": "AttractionsProductReviewStats",
+          "allReviewsCount": 4,
+          "percentage": "50%",
+          "combinedNumericStats": {
+            "__typename": "AttractionsProductCombinedReviewStats",
+            "average": 4.2,
+            "total": 9
+          }
+        },
+        "ufiDetails": {
+          "__typename": "AttractionLocationResponse",
+          "bCityName": "Mumbai",
+          "ufi": -2092174,
+          "url": {
+            "__typename": "AttractionLocationUrl",
+            "country": "in"
+          }
+        },
+        "offers": [
+          {
+            "__typename": "Offer",
+            "items": [
+              {
+                "__typename": "OfferItem",
+                "id": "OIO08D74pdQu"
+              },
+              {
+                "__typename": "OfferItem",
+                "id": "OIQehXZrUfWz"
+              },
+              {
+                "__typename": "OfferItem",
+                "id": "OIgx0kMYUWQl"
+              }
+            ]
+          }
+        ],
+        "supportedFeatures": {
+          "__typename": "AttractionsProductSupportedFeatures",
+          "nativeApp": true
+        },
+        "flags": null
+      },
+      {
+        "__typename": "AttractionsProduct",
+        "cancellationPolicy": {
+          "__typename": "AttractionsCancellationPolicy",
+          "hasFreeCancellation": true
+        },
+        "id": "PRg6H2LJ9JFX",
+        "name": "Tournée des pubs de la ville avec boissons",
+        "slug": "prg6h2lj9jfx-city-pub-crawl-with-drinks",
+        "shortDescription": "Une occasion de visiter plusieurs pubs et de découvrir la vie nocturne de Mumbai",
+        "representativePrice": {
+          "__typename": "AttractionsPrice",
+          "chargeAmount": 2210.74,
+          "currency": "INR",
+          "publicAmount": 2210.74
+        },
+        "primaryPhoto": {
+          "__typename": "AttractionsPhoto",
+          "small": "https://q-xx.bstatic.com/xdata/images/xphoto/300x320/141997918.jpg?k=8ae85e6b241acf51192a186da7cd478306340087601be5ba6395b2f3cdc34d14&o="
+        },
+        "reviewsStats": {
+          "__typename": "AttractionsProductReviewStats",
+          "allReviewsCount": 1,
+          "percentage": "0",
+          "combinedNumericStats": {
+            "__typename": "AttractionsProductCombinedReviewStats",
+            "average": 1,
+            "total": 1
+          }
+        },
+        "ufiDetails": {
+          "__typename": "AttractionLocationResponse",
+          "bCityName": "Mumbai",
+          "ufi": -2092174,
+          "url": {
+            "__typename": "AttractionLocationUrl",
+            "country": "in"
+          }
+        },
+        "offers": [
+          {
+            "__typename": "Offer",
+            "items": [
+              {
+                "__typename": "OfferItem",
+                "id": "OIv01E3F5BlS"
+              }
+            ]
+          }
+        ],
+        "supportedFeatures": {
+          "__typename": "AttractionsProductSupportedFeatures",
+          "nativeApp": true
+        },
+        "flags": [
+          {
+            "__typename": "AttractionsProductFlags",
+            "flag": "popularFor2Travelers",
+            "value": true,
+            "rank": 1
+          }
+        ]
+      },
+      {
+        "__typename": "AttractionsProduct",
+        "cancellationPolicy": {
+          "__typename": "AttractionsCancellationPolicy",
+          "hasFreeCancellation": true
+        },
+        "id": "PRDs6bqzax70",
+        "name": "Visite de 4 heures de Shantaram",
+        "slug": "prds6bqzax70-four-hour-shantaram-tour",
+        "shortDescription": "Occasion de découvrir les zones décrites dans le roman de Shantaram se déroulant à Bombay",
+        "representativePrice": {
+          "__typename": "AttractionsPrice",
+          "chargeAmount": 13726.76,
+          "currency": "INR",
+          "publicAmount": 13726.76
+        },
+        "primaryPhoto": {
+          "__typename": "AttractionsPhoto",
+          "small": "https://q-xx.bstatic.com/xdata/images/xphoto/300x320/142000461.jpg?k=d99a6bbb8ab809afa2d82af7a4a6f4a053e87fd62f8e8d5a5e9d3bacc547057c&o="
+        },
+        "reviewsStats": null,
+        "ufiDetails": {
+          "__typename": "AttractionLocationResponse",
+          "bCityName": "Mumbai",
+          "ufi": -2092174,
+          "url": {
+            "__typename": "AttractionLocationUrl",
+            "country": "in"
+          }
+        },
+        "offers": [
+          {
+            "__typename": "Offer",
+            "items": [
+              {
+                "__typename": "OfferItem",
+                "id": "OIIBDsRBaxNu"
+              }
+            ]
+          },
+          {
+            "__typename": "Offer",
+            "items": [
+              {
+                "__typename": "OfferItem",
+                "id": "OIH5Q0eT78PD"
+              }
+            ]
+          }
+        ],
+        "supportedFeatures": {
+          "__typename": "AttractionsProductSupportedFeatures",
+          "nativeApp": true
+        },
+        "flags": null
+      },
+      {
+        "__typename": "AttractionsProduct",
+        "cancellationPolicy": {
+          "__typename": "AttractionsCancellationPolicy",
+          "hasFreeCancellation": true
+        },
+        "id": "PRq90PofT9aP",
+        "name": "Visite du domaine viticole de Sula avec dégustation de vins",
+        "slug": "prq90poft9ap-sula-vineyards-tour-with-wine-tasting",
+        "shortDescription": "Une journée au milieu des vignes agrémentée d’une dégustation de vins locaux",
+        "representativePrice": {
+          "__typename": "AttractionsPrice",
+          "chargeAmount": 14059.53,
+          "currency": "INR",
+          "publicAmount": 14059.53
+        },
+        "primaryPhoto": {
+          "__typename": "AttractionsPhoto",
+          "small": "https://r-xx.bstatic.com/xdata/images/xphoto/300x320/142003282.jpg?k=497e0399d6fcb0fe42327ef9c799a88dec1e37dab052430d4ed83eb24541dca9&o="
+        },
+        "reviewsStats": null,
+        "ufiDetails": {
+          "__typename": "AttractionLocationResponse",
+          "bCityName": "Mumbai",
+          "ufi": -2092174,
+          "url": {
+            "__typename": "AttractionLocationUrl",
+            "country": "in"
+          }
+        },
+        "offers": [
+          {
+            "__typename": "Offer",
+            "items": [
+              {
+                "__typename": "OfferItem",
+                "id": "OIfuG5kW6itJ"
+              }
+            ]
+          }
+        ],
+        "supportedFeatures": {
+          "__typename": "AttractionsProductSupportedFeatures",
+          "nativeApp": true
+        },
+        "flags": null
+      },
+      {
+        "__typename": "AttractionsProduct",
+        "cancellationPolicy": {
+          "__typename": "AttractionsCancellationPolicy",
+          "hasFreeCancellation": true
+        },
+        "id": "PRcLW2pHMkQA",
+        "name": "Promenade à la découverte de la cuisine de rue",
+        "slug": "prclw2phmkqa-street-food-walking-tour",
+        "shortDescription": "Visite guidée pour goûter la meilleure nourriture de rue de Mumbai et vous mêler à la population locale",
+        "representativePrice": {
+          "__typename": "AttractionsPrice",
+          "chargeAmount": 6567.21,
+          "currency": "INR",
+          "publicAmount": 6567.21
+        },
+        "primaryPhoto": {
+          "__typename": "AttractionsPhoto",
+          "small": "https://q-xx.bstatic.com/xdata/images/xphoto/300x320/141992790.jpg?k=44af14abb548e313a69076183d9aa97b485ad5782a6044a9f716d6d6d167401d&o="
+        },
+        "reviewsStats": null,
+        "ufiDetails": {
+          "__typename": "AttractionLocationResponse",
+          "bCityName": "Mumbai",
+          "ufi": -2092174,
+          "url": {
+            "__typename": "AttractionLocationUrl",
+            "country": "in"
+          }
+        },
+        "offers": [
+          {
+            "__typename": "Offer",
+            "items": [
+              {
+                "__typename": "OfferItem",
+                "id": "OIBkS8XynKyd"
+              },
+              {
+                "__typename": "OfferItem",
+                "id": "OIe8vyh92RTO"
+              },
+              {
+                "__typename": "OfferItem",
+                "id": "OIRCkOec86iR"
+              }
+            ]
+          }
+        ],
+        "supportedFeatures": {
+          "__typename": "AttractionsProductSupportedFeatures",
+          "nativeApp": true
+        },
+        "flags": null
+      },
+      {
+        "__typename": "AttractionsProduct",
+        "cancellationPolicy": {
+          "__typename": "AttractionsCancellationPolicy",
+          "hasFreeCancellation": true
+        },
+        "id": "PRuazLff1aB2",
+        "name": "Visite privée du bidonville de Dharavi",
+        "slug": "pruazlff1ab2-dharavi-slum-private-tour",
+        "shortDescription": "Une visite à pied dans le célèbre bidonville de Mumbai",
+        "representativePrice": {
+          "__typename": "AttractionsPrice",
+          "chargeAmount": 5128.91,
+          "currency": "INR",
+          "publicAmount": 5128.91
+        },
+        "primaryPhoto": {
+          "__typename": "AttractionsPhoto",
+          "small": "https://q-xx.bstatic.com/xdata/images/xphoto/300x320/142000217.jpg?k=dc7550ecd0161e2c26dcdd7164ba1b821516af005d4e085e3b12d3904d476a40&o="
+        },
+        "reviewsStats": null,
+        "ufiDetails": {
+          "__typename": "AttractionLocationResponse",
+          "bCityName": "Mumbai",
+          "ufi": -2092174,
+          "url": {
+            "__typename": "AttractionLocationUrl",
+            "country": "in"
+          }
+        },
+        "offers": [
+          {
+            "__typename": "Offer",
+            "items": [
+              {
+                "__typename": "OfferItem",
+                "id": "OIaxj2AlVTTz"
+              }
+            ]
+          }
+        ],
+        "supportedFeatures": {
+          "__typename": "AttractionsProductSupportedFeatures",
+          "nativeApp": true
+        },
+        "flags": null
+      },
+      {
+        "__typename": "AttractionsProduct",
+        "cancellationPolicy": {
+          "__typename": "AttractionsCancellationPolicy",
+          "hasFreeCancellation": true
+        },
+        "id": "PRSHE4UXvcU2",
+        "name": "Visite privée des temples de Mumbai",
+        "slug": "prshe4uxvcu2-mumbai-temples-private-tour",
+        "shortDescription": "Visite guidée à la découverte des temples hindous de Mumbai et du temple Siddhivinayak",
+        "representativePrice": {
+          "__typename": "AttractionsPrice",
+          "chargeAmount": 6632.21,
+          "currency": "INR",
+          "publicAmount": 6632.21
+        },
+        "primaryPhoto": {
+          "__typename": "AttractionsPhoto",
+          "small": "https://q-xx.bstatic.com/xdata/images/xphoto/300x320/142001088.jpg?k=dbfda6b0bccd053e309d304701a89919f41bc2efde4cf25bdb7d3cfb8fee3060&o="
+        },
+        "reviewsStats": null,
+        "ufiDetails": {
+          "__typename": "AttractionLocationResponse",
+          "bCityName": "Mumbai",
+          "ufi": -2092174,
+          "url": {
+            "__typename": "AttractionLocationUrl",
+            "country": "in"
+          }
+        },
+        "offers": [
+          {
+            "__typename": "Offer",
+            "items": [
+              {
+                "__typename": "OfferItem",
+                "id": "OInTaA0Kaspm"
+              }
+            ]
+          }
+        ],
+        "supportedFeatures": {
+          "__typename": "AttractionsProductSupportedFeatures",
+          "nativeApp": true
+        },
+        "flags": null
+      },
+      {
+        "__typename": "AttractionsProduct",
+        "cancellationPolicy": {
+          "__typename": "AttractionsCancellationPolicy",
+          "hasFreeCancellation": true
+        },
+        "id": "PRWAOn3ZOgG1",
+        "name": "Visite touristique personnalisable d'une journée à Mumbai",
+        "slug": "prwaon3zogg1-full-day-customisable-mumbai-sightseeing-tour",
+        "shortDescription": "Une excursion d'une journée complète pour explorer les sites majeurs de Mumbai",
+        "representativePrice": {
+          "__typename": "AttractionsPrice",
+          "chargeAmount": 9317.56,
+          "currency": "INR",
+          "publicAmount": 9317.56
+        },
+        "primaryPhoto": {
+          "__typename": "AttractionsPhoto",
+          "small": "https://r-xx.bstatic.com/xdata/images/xphoto/300x320/141995554.jpg?k=a2fe673e42f0045f2c236a5e456dabdb8c1287a4c55922c74b708b2e08be069d&o="
+        },
+        "reviewsStats": null,
+        "ufiDetails": {
+          "__typename": "AttractionLocationResponse",
+          "bCityName": "Mumbai",
+          "ufi": -2092174,
+          "url": {
+            "__typename": "AttractionLocationUrl",
+            "country": "in"
+          }
+        },
+        "offers": [
+          {
+            "__typename": "Offer",
+            "items": [
+              {
+                "__typename": "OfferItem",
+                "id": "OIRTNVYeqyKl"
+              },
+              {
+                "__typename": "OfferItem",
+                "id": "OIr9U08VvW5m"
+              },
+              {
+                "__typename": "OfferItem",
+                "id": "OI7l8Ra7Okmj"
+              }
+            ]
+          }
+        ],
+        "supportedFeatures": {
+          "__typename": "AttractionsProductSupportedFeatures",
+          "nativeApp": true
+        },
+        "flags": null
+      },
+      {
+        "__typename": "AttractionsProduct",
+        "cancellationPolicy": {
+          "__typename": "AttractionsCancellationPolicy",
+          "hasFreeCancellation": true
+        },
+        "id": "PR0QBOrzd0Kt",
+        "name": "Visite de Mumbai par divers moyens de transport",
+        "slug": "pr0qborzd0kt-mumbai-transport-and-city-sightseeing-tour",
+        "shortDescription": "Excursion à Mumbai via divers véhicules pour découvrir ses attractions",
+        "representativePrice": {
+          "__typename": "AttractionsPrice",
+          "chargeAmount": 4880.9,
+          "currency": "INR",
+          "publicAmount": 4880.9
+        },
+        "primaryPhoto": {
+          "__typename": "AttractionsPhoto",
+          "small": "https://r-xx.bstatic.com/xdata/images/xphoto/300x320/141988610.jpg?k=8cff4d23ab2b785b40de35275420d186fb25a66f59319bb63e62677477afa9e5&o="
+        },
+        "reviewsStats": null,
+        "ufiDetails": {
+          "__typename": "AttractionLocationResponse",
+          "bCityName": "Mumbai",
+          "ufi": -2092174,
+          "url": {
+            "__typename": "AttractionLocationUrl",
+            "country": "in"
+          }
+        },
+        "offers": [
+          {
+            "__typename": "Offer",
+            "items": [
+              {
+                "__typename": "OfferItem",
+                "id": "OIxtoOgAEgqt"
+              },
+              {
+                "__typename": "OfferItem",
+                "id": "OIwD6CsdamIE"
+              },
+              {
+                "__typename": "OfferItem",
+                "id": "OIBVBAiWVROs"
+              }
+            ]
+          },
+          {
+            "__typename": "Offer",
+            "items": [
+              {
+                "__typename": "OfferItem",
+                "id": "OIM5OYjXE2jA"
+              },
+              {
+                "__typename": "OfferItem",
+                "id": "OIQ61S1bgELN"
+              },
+              {
+                "__typename": "OfferItem",
+                "id": "OIxU1ispfYfQ"
+              }
+            ]
+          }
+        ],
+        "supportedFeatures": {
+          "__typename": "AttractionsProductSupportedFeatures",
+          "nativeApp": true
+        },
+        "flags": null
+      },
+      {
+        "__typename": "AttractionsProduct",
+        "cancellationPolicy": {
+          "__typename": "AttractionsCancellationPolicy",
+          "hasFreeCancellation": true
+        },
+        "id": "PR4pG6p4WXCB",
+        "name": "Visite privée en transports en commun",
+        "slug": "pr4pg6p4wxcb-private-sightseeing-tour-by-public-transportation",
+        "shortDescription": "Visite guidée de 4 heures pour un aperçu de Mumbai",
+        "representativePrice": {
+          "__typename": "AttractionsPrice",
+          "chargeAmount": 4076.43,
+          "currency": "INR",
+          "publicAmount": 4076.43
+        },
+        "primaryPhoto": {
+          "__typename": "AttractionsPhoto",
+          "small": "https://q-xx.bstatic.com/xdata/images/xphoto/300x320/150531929.jpg?k=db359ebdc728ae9b0f35d73c3ae4d3248046ab2ea579d0ba083683699cef3c66&o="
+        },
+        "reviewsStats": {
+          "__typename": "AttractionsProductReviewStats",
+          "allReviewsCount": 1,
+          "percentage": "100%",
+          "combinedNumericStats": {
+            "__typename": "AttractionsProductCombinedReviewStats",
+            "average": 5,
+            "total": 2
+          }
+        },
+        "ufiDetails": {
+          "__typename": "AttractionLocationResponse",
+          "bCityName": "Mumbai",
+          "ufi": -2092174,
+          "url": {
+            "__typename": "AttractionLocationUrl",
+            "country": "in"
+          }
+        },
+        "offers": [
+          {
+            "__typename": "Offer",
+            "items": [
+              {
+                "__typename": "OfferItem",
+                "id": "OIRtmXAEaHTG"
+              }
+            ]
+          }
+        ],
+        "supportedFeatures": {
+          "__typename": "AttractionsProductSupportedFeatures",
+          "nativeApp": true
+        },
+        "flags": [
+          {
+            "__typename": "AttractionsProductFlags",
+            "flag": "popularFor3Travelers",
+            "value": true,
+            "rank": 1
+          }
+        ]
+      },
+      {
+        "__typename": "AttractionsProduct",
+        "cancellationPolicy": {
+          "__typename": "AttractionsCancellationPolicy",
+          "hasFreeCancellation": true
+        },
+        "id": "PRFbWIM4J9k9",
+        "name": "Visite privée à pied de Mumbai",
+        "slug": "prfbwim4j9k9-private-mumbai-walking-tour",
+        "shortDescription": "Une visite guidée personnalisée de la ville",
+        "representativePrice": {
+          "__typename": "AttractionsPrice",
+          "chargeAmount": 4159.62,
+          "currency": "INR",
+          "publicAmount": 4159.62
+        },
+        "primaryPhoto": {
+          "__typename": "AttractionsPhoto",
+          "small": "https://r-xx.bstatic.com/xdata/images/xphoto/300x320/141999067.jpg?k=eadd419b593ef5c182d405acf4293efc5bf889323314cc9f077d6510013bb24f&o="
+        },
+        "reviewsStats": null,
+        "ufiDetails": {
+          "__typename": "AttractionLocationResponse",
+          "bCityName": "Mumbai",
+          "ufi": -2092174,
+          "url": {
+            "__typename": "AttractionLocationUrl",
+            "country": "in"
+          }
+        },
+        "offers": [
+          {
+            "__typename": "Offer",
+            "items": [
+              {
+                "__typename": "OfferItem",
+                "id": "OIIZTcybGmiS"
+              },
+              {
+                "__typename": "OfferItem",
+                "id": "OIhpnMFP5KXc"
+              },
+              {
+                "__typename": "OfferItem",
+                "id": "OIqe2dlljsxp"
+              }
+            ]
+          },
+          {
+            "__typename": "Offer",
+            "items": [
+              {
+                "__typename": "OfferItem",
+                "id": "OIgbV5IaSHMR"
+              },
+              {
+                "__typename": "OfferItem",
+                "id": "OI3303VJCG6S"
+              },
+              {
+                "__typename": "OfferItem",
+                "id": "OIl6kYUYZbwN"
+              }
+            ]
+          },
+          {
+            "__typename": "Offer",
+            "items": [
+              {
+                "__typename": "OfferItem",
+                "id": "OI79GGVXlNiK"
+              },
+              {
+                "__typename": "OfferItem",
+                "id": "OILRhb6kpVhi"
+              },
+              {
+                "__typename": "OfferItem",
+                "id": "OIytVpoJQFgw"
+              }
+            ]
+          },
+          {
+            "__typename": "Offer",
+            "items": [
+              {
+                "__typename": "OfferItem",
+                "id": "OIJVROes9Cmf"
+              },
+              {
+                "__typename": "OfferItem",
+                "id": "OIaz1hsi8ddo"
+              },
+              {
+                "__typename": "OfferItem",
+                "id": "OIVI11YiV7Wv"
+              }
+            ]
+          },
+          {
+            "__typename": "Offer",
+            "items": [
+              {
+                "__typename": "OfferItem",
+                "id": "OIvIARlMaxyD"
+              },
+              {
+                "__typename": "OfferItem",
+                "id": "OIXcq4EHixDN"
+              },
+              {
+                "__typename": "OfferItem",
+                "id": "OIpYsxZK99Vg"
+              }
+            ]
+          }
+        ],
+        "supportedFeatures": {
+          "__typename": "AttractionsProductSupportedFeatures",
+          "nativeApp": true
+        },
+        "flags": null
+      },
+      {
+        "__typename": "AttractionsProduct",
+        "cancellationPolicy": {
+          "__typename": "AttractionsCancellationPolicy",
+          "hasFreeCancellation": false
+        },
+        "id": "PRI0IthkuqUH",
+        "name": "Activité à la découverte des lieux d’intérêt de Mumbai",
+        "slug": "pri0ithkuquh-mumbai-highlights-sightseeing-tour",
+        "shortDescription": "Activité à la découverte de certains des lieux d'intérêt les plus emblématiques de la ville",
+        "representativePrice": {
+          "__typename": "AttractionsPrice",
+          "chargeAmount": 6963.82,
+          "currency": "INR",
+          "publicAmount": 6963.82
+        },
+        "primaryPhoto": {
+          "__typename": "AttractionsPhoto",
+          "small": "https://q-xx.bstatic.com/xdata/images/xphoto/300x320/153575618.jpg?k=38c65af9711fa5279302a5741b6c7232299afdc7e40c88ae3e8a5679986f1e4c&o="
+        },
+        "reviewsStats": {
+          "__typename": "AttractionsProductReviewStats",
+          "allReviewsCount": 1,
+          "percentage": "100%",
+          "combinedNumericStats": {
+            "__typename": "AttractionsProductCombinedReviewStats",
+            "average": 4.9,
+            "total": 15
+          }
+        },
+        "ufiDetails": {
+          "__typename": "AttractionLocationResponse",
+          "bCityName": "Mumbai",
+          "ufi": -2092174,
+          "url": {
+            "__typename": "AttractionLocationUrl",
+            "country": "in"
+          }
+        },
+        "offers": [
+          {
+            "__typename": "Offer",
+            "items": [
+              {
+                "__typename": "OfferItem",
+                "id": "OIO1ZYPhWwCo"
+              },
+              {
+                "__typename": "OfferItem",
+                "id": "OIlRzlQR3MZi"
+              }
+            ]
+          },
+          {
+            "__typename": "Offer",
+            "items": [
+              {
+                "__typename": "OfferItem",
+                "id": "OInjuJs3QT1z"
+              },
+              {
+                "__typename": "OfferItem",
+                "id": "OIuU9FkWDeQE"
+              },
+              {
+                "__typename": "OfferItem",
+                "id": "OIFaAOuVqexI"
+              },
+              {
+                "__typename": "OfferItem",
+                "id": "OILXsT1TZZsY"
+              },
+              {
+                "__typename": "OfferItem",
+                "id": "OIBGjNG4yOfJ"
+              },
+              {
+                "__typename": "OfferItem",
+                "id": "OIPcAdQBRe7q"
+              }
+            ]
+          }
+        ],
+        "supportedFeatures": {
+          "__typename": "AttractionsProductSupportedFeatures",
+          "nativeApp": true
+        },
+        "flags": null
+      },
+      {
+        "__typename": "AttractionsProduct",
+        "cancellationPolicy": {
+          "__typename": "AttractionsCancellationPolicy",
+          "hasFreeCancellation": true
+        },
+        "id": "PRQMXDsFr5eq",
+        "name": "Tour gastronomique privé avec 10 dégustations de cuisine de rue",
+        "slug": "prqmxdsfr5eq-private-street-food-tour-with-ten-tastings",
+        "shortDescription": "Une visite guidée à la découverte de la scène culinaire de Bombay",
+        "representativePrice": {
+          "__typename": "AttractionsPrice",
+          "chargeAmount": 8400.8,
+          "currency": "INR",
+          "publicAmount": 8400.8
+        },
+        "primaryPhoto": {
+          "__typename": "AttractionsPhoto",
+          "small": "https://q-xx.bstatic.com/xdata/images/xphoto/300x320/142005545.jpg?k=e8263cdfa36fea926aad8f00658f25b1ec7d8ecab6b888138e3d806591c34e5b&o="
+        },
+        "reviewsStats": null,
+        "ufiDetails": {
+          "__typename": "AttractionLocationResponse",
+          "bCityName": "Mumbai",
+          "ufi": -2092174,
+          "url": {
+            "__typename": "AttractionLocationUrl",
+            "country": "in"
+          }
+        },
+        "offers": [
+          {
+            "__typename": "Offer",
+            "items": [
+              {
+                "__typename": "OfferItem",
+                "id": "OIumJSx29jwf"
+              }
+            ]
+          }
+        ],
+        "supportedFeatures": {
+          "__typename": "AttractionsProductSupportedFeatures",
+          "nativeApp": true
+        },
+        "flags": null
+      },
+      {
+        "__typename": "AttractionsProduct",
+        "cancellationPolicy": {
+          "__typename": "AttractionsCancellationPolicy",
+          "hasFreeCancellation": true
+        },
+        "id": "PRV27lPvYylQ",
+        "name": "Visite privée de Mumbai avec un guide local",
+        "slug": "prv27lpvyylq-mumbai-private-guided-tour-with-a-local",
+        "shortDescription": "Une visite d’une heure et demie pour découvrir la charmante ville de Mumbai",
+        "representativePrice": {
+          "__typename": "AttractionsPrice",
+          "chargeAmount": 3095.03,
+          "currency": "INR",
+          "publicAmount": 3095.03
+        },
+        "primaryPhoto": {
+          "__typename": "AttractionsPhoto",
+          "small": "https://q-xx.bstatic.com/xdata/images/xphoto/300x320/142004541.jpg?k=db67e283231dff22fc6dc62b95b0c35991f05cf2e58a326dd7848d13f2efec1b&o="
+        },
+        "reviewsStats": null,
+        "ufiDetails": {
+          "__typename": "AttractionLocationResponse",
+          "bCityName": "Mumbai",
+          "ufi": -2092174,
+          "url": {
+            "__typename": "AttractionLocationUrl",
+            "country": "in"
+          }
+        },
+        "offers": [
+          {
+            "__typename": "Offer",
+            "items": [
+              {
+                "__typename": "OfferItem",
+                "id": "OIK2xzAerx2Y"
+              }
+            ]
+          }
+        ],
+        "supportedFeatures": {
+          "__typename": "AttractionsProductSupportedFeatures",
+          "nativeApp": true
+        },
+        "flags": null
+      },
+      {
+        "__typename": "AttractionsProduct",
+        "cancellationPolicy": {
+          "__typename": "AttractionsCancellationPolicy",
+          "hasFreeCancellation": false
+        },
+        "id": "PRqhWQfEwCcK",
+        "name": "Visite architecturale autonome via une application téléchargeable",
+        "slug": "prqhwqfewcck-downloadable-app-self-guided-architectural-tour",
+        "shortDescription": "Visite avec audioguide pour explorer les bâtiments et sites historiques, grâce à une application téléchargeable",
+        "representativePrice": {
+          "__typename": "AttractionsPrice",
+          "chargeAmount": 449.24,
+          "currency": "INR",
+          "publicAmount": 449.24
+        },
+        "primaryPhoto": {
+          "__typename": "AttractionsPhoto",
+          "small": "https://r-xx.bstatic.com/xdata/images/xphoto/300x320/142005542.jpg?k=5632ecbf3956160a943474a0371633e53e61ae11b9a17181d92bb3e11f41af34&o="
+        },
+        "reviewsStats": {
+          "__typename": "AttractionsProductReviewStats",
+          "allReviewsCount": 0,
+          "percentage": "0",
+          "combinedNumericStats": {
+            "__typename": "AttractionsProductCombinedReviewStats",
+            "average": 4,
+            "total": 1
+          }
+        },
+        "ufiDetails": {
+          "__typename": "AttractionLocationResponse",
+          "bCityName": "Mumbai",
+          "ufi": -2092174,
+          "url": {
+            "__typename": "AttractionLocationUrl",
+            "country": "in"
+          }
+        },
+        "offers": [
+          {
+            "__typename": "Offer",
+            "items": [
+              {
+                "__typename": "OfferItem",
+                "id": "OIAU0RihGD25"
+              }
+            ]
+          }
+        ],
+        "supportedFeatures": {
+          "__typename": "AttractionsProductSupportedFeatures",
+          "nativeApp": true
+        },
+        "flags": null
+      },
+      {
+        "__typename": "AttractionsProduct",
+        "cancellationPolicy": {
+          "__typename": "AttractionsCancellationPolicy",
+          "hasFreeCancellation": true
+        },
+        "id": "PRIgM2XGlPbS",
+        "name": "Visite des lieux d’intérêt de Bombay",
+        "slug": "prigm2xglpbs-mumbai-highlights-tour",
+        "shortDescription": "Une visite de 4 heures à la découverte des principales attractions touristiques de Bombay",
+        "representativePrice": {
+          "__typename": "AttractionsPrice",
+          "chargeAmount": 6211.98,
+          "currency": "INR",
+          "publicAmount": 6211.98
+        },
+        "primaryPhoto": {
+          "__typename": "AttractionsPhoto",
+          "small": "https://q-xx.bstatic.com/xdata/images/xphoto/300x320/141988650.jpg?k=e3c18bf5d1e4f62ed789e392eebaf44e92375e04552986ea5ef4d37ab77a868a&o="
+        },
+        "reviewsStats": null,
+        "ufiDetails": {
+          "__typename": "AttractionLocationResponse",
+          "bCityName": "Mumbai",
+          "ufi": -2092174,
+          "url": {
+            "__typename": "AttractionLocationUrl",
+            "country": "in"
+          }
+        },
+        "offers": [
+          {
+            "__typename": "Offer",
+            "items": [
+              {
+                "__typename": "OfferItem",
+                "id": "OItzhUKQ5XWS"
+              },
+              {
+                "__typename": "OfferItem",
+                "id": "OIt9isPp55Fg"
+              }
+            ]
+          }
+        ],
+        "supportedFeatures": {
+          "__typename": "AttractionsProductSupportedFeatures",
+          "nativeApp": true
+        },
+        "flags": null
+      },
+      {
+        "__typename": "AttractionsProduct",
+        "cancellationPolicy": {
+          "__typename": "AttractionsCancellationPolicy",
+          "hasFreeCancellation": false
+        },
+        "id": "PRkBPeEGelXL",
+        "name": "Activité guidée dans la ville avec visite des grottes de Kanheri",
+        "slug": "prkbpeegelxl-guided-city-tour-with-kanheri-caves-visit",
+        "shortDescription": "Visite de 8 heures des points forts de Mumbai avec vue sur la mer et le panorama urbain",
+        "representativePrice": {
+          "__typename": "AttractionsPrice",
+          "chargeAmount": 14731.46,
+          "currency": "INR",
+          "publicAmount": 14731.46
+        },
+        "primaryPhoto": {
+          "__typename": "AttractionsPhoto",
+          "small": "https://q-xx.bstatic.com/xdata/images/xphoto/300x320/153547613.jpg?k=10ab311daf8b8488da123088890e78e50acd727075120388410beac9ffc27f24&o="
+        },
+        "reviewsStats": {
+          "__typename": "AttractionsProductReviewStats",
+          "allReviewsCount": 1,
+          "percentage": "100%",
+          "combinedNumericStats": {
+            "__typename": "AttractionsProductCombinedReviewStats",
+            "average": 4.9,
+            "total": 8
+          }
+        },
+        "ufiDetails": {
+          "__typename": "AttractionLocationResponse",
+          "bCityName": "Mumbai",
+          "ufi": -2092174,
+          "url": {
+            "__typename": "AttractionLocationUrl",
+            "country": "in"
+          }
+        },
+        "offers": [
+          {
+            "__typename": "Offer",
+            "items": [
+              {
+                "__typename": "OfferItem",
+                "id": "OIVL7EIkG6Rv"
+              },
+              {
+                "__typename": "OfferItem",
+                "id": "OIzAdEWbiwA9"
+              }
+            ]
+          },
+          {
+            "__typename": "Offer",
+            "items": [
+              {
+                "__typename": "OfferItem",
+                "id": "OIO0UrjFYFLR"
+              },
+              {
+                "__typename": "OfferItem",
+                "id": "OI4VPYSx1BAe"
+              }
+            ]
+          }
+        ],
+        "supportedFeatures": {
+          "__typename": "AttractionsProductSupportedFeatures",
+          "nativeApp": true
+        },
+        "flags": null
+      }
+    ],
+    "filterStats": {
+      "__typename": "FilterStats",
+      "unfilteredProductCount": 28,
+      "filteredProductCount": 28
+    },
+    "sorters": [
+      {
+        "__typename": "AttractionsSorterOption",
+        "name": "Nos préférés",
+        "value": "trending"
+      },
+      {
+        "__typename": "AttractionsSorterOption",
+        "name": "Les plus populaires",
+        "value": "attr_book_score"
+      },
+      {
+        "__typename": "AttractionsSorterOption",
+        "name": "Tarif le plus bas",
+        "value": "lowest_price"
+      }
+    ],
+    "defaultSorter": {
+      "__typename": "AttractionsSorterOption",
+      "name": "Nos préférés",
+      "value": "trending"
+    },
+    "filterOptions": {
+      "__typename": "FilterOptions",
+      "typeFilters": [
+        {
+          "__typename": "FilterOption",
+          "name": "Visites touristiques",
+          "tagname": "tours",
+          "productCount": 24
+        },
+        {
+          "__typename": "FilterOption",
+          "name": "Activités",
+          "tagname": "activities",
+          "productCount": 3
+        },
+        {
+          "__typename": "FilterOption",
+          "name": "Lieux d'intérêt",
+          "tagname": "landmarks",
+          "productCount": 1
+        }
+      ],
+      "labelFilters": [
+        {
+          "__typename": "FilterOption",
+          "name": "Annulation gratuite",
+          "tagname": "free_cancellation",
+          "productCount": 24
+        }
+      ],
+      "ufiFilters": [
+        {
+          "__typename": "FilterOption",
+          "name": "Mumbai",
+          "tagname": "-2092174",
+          "productCount": 28
+        }
+      ],
+      "priceFilters": [
+        {
+          "__typename": "FilterOption",
+          "name": "Rs. 0 - Rs. 1 762",
+          "tagname": "b0",
+          "productCount": 3
+        },
+        {
+          "__typename": "FilterOption",
+          "name": "Rs. 1 762 - Rs. 3 524",
+          "tagname": "b1",
+          "productCount": 3
+        },
+        {
+          "__typename": "FilterOption",
+          "name": "Rs. 3 524 - Rs. 6 608",
+          "tagname": "b2",
+          "productCount": 7
+        },
+        {
+          "__typename": "FilterOption",
+          "name": "Rs. 6 608 - Rs. 11 013",
+          "tagname": "b3",
+          "productCount": 4
+        },
+        {
+          "__typename": "FilterOption",
+          "name": "Rs. 11 013+",
+          "tagname": "b4",
+          "productCount": 11
+        }
+      ]
+    }
+  }
+}
