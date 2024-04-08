@@ -1,20 +1,25 @@
 import React from "react";
-import Banner from "./../../assets/banner.png";
+import Banner from "./../../../../assets/banner.png";
 import { Button } from "@heathmont/moon-core-tw";
 import LeftArrow from "../../../../share/svg/LeftArrow";
 import Calendar from "../../../../share/svg/Calendar";
 import RightArrow from "../../../../share/svg/RightArrow";
 import { FAMILY_TRIP_DATA } from "../../constant/data";
 import MovingPlane from "../../../../share/svg/MovingPlan";
-import { FlightCard } from "../cards/components/FlightCard";
-import TripCard from "../cards/components/TripCard";
-import CardLayout from "../cards/layout/CardLayout";
+import { FlightCard } from "../../../../share/cards/components/FlightCard";
+import TripCard from "../../../../share/cards/components/TripCard";
+import CardLayout from "../../../../share/cards/layout/CardLayout";
 import ActivitiesIcon from "../../../../share/svg/Activities";
-import HotelCard from "../cards/components/HotelCard";
-import ActivityCard from "../cards/components/ActivityCard";
+import HotelCard from "../../../../share/cards/components/HotelCard";
+import ActivityCard from "../../../../share/cards/components/ActivityCard";
 import HotelsIcon from "../../../../share/svg/Hotels";
+import useFlight from "../../../../context/flightsContext/useFlight";
+import useHotel from "../../../../context/hotelsContext/useHotel";
 
 const RightSection = () => {
+  const { flight } = useFlight();
+  const { hotel } = useHotel();
+
   return (
     <div className="w-full h-max border p-6 bg-white rounded-md shadow-lg">
       <div className="relative w-full">
@@ -54,9 +59,16 @@ const RightSection = () => {
 
       <CardLayout
         icon={<MovingPlane />}
+        link="flights"
         cardTitle="Flights"
         buttonTitle="Add Flights"
-        card={<FlightCard />}
+        card={
+          <>
+            {flight.map((value, index) => (
+              <FlightCard key={index} value={value} />
+            ))}
+          </>
+        }
         bgColor="bg-lightGray"
         titleTextColor="text-black"
         buttonTextColor="text-blue"
@@ -64,9 +76,16 @@ const RightSection = () => {
 
       <CardLayout
         icon={<HotelsIcon color="white" />}
+        link="hotels"
         cardTitle="Hotels"
         buttonTitle="Add Hotels"
-        card={<HotelCard />}
+        card={
+          <>
+            {hotel.map((value, index) => (
+              <HotelCard key={index} value={value} />
+            ))}
+          </>
+        }
         bgColor="bg-darkGray"
         titleTextColor="text-white"
         buttonTextColor="text-darkGray"
@@ -74,6 +93,7 @@ const RightSection = () => {
 
       <CardLayout
         icon={<ActivitiesIcon color="white" />}
+        link="activities"
         cardTitle="Activities"
         buttonTitle="Add Activities"
         card={<ActivityCard />}

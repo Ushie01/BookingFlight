@@ -11,14 +11,18 @@ import VisaIcon from "../../../share/svg/Visa";
 import VocationPackageIcon from "../../../share/svg/VocationPackage";
 
 export const SIDERBAR_LINKS = [
-  { name: "Activities", icon: ActivitiesIcon },
-  { name: "Hotels", icon: HotelsIcon },
-  { name: "Flights", icon: AirplaneIcon },
-  { name: "Study", icon: StudyIcon },
-  { name: "Visa", icon: VisaIcon },
-  { name: "Immigration", icon: ImmigrationIcon },
-  { name: "Medical", icon: MedicalIcon },
-  { name: "Vacation Package", icon: VocationPackageIcon },
+  {
+    name: "Activities",
+    icon: ActivitiesIcon,
+    link: "/add-to-itinerary/activities",
+  },
+  { name: "Hotels", icon: HotelsIcon, link: "/add-to-itinerary/hotels" },
+  { name: "Flights", icon: AirplaneIcon, link: "add-to-itinerary/flights" },
+  { name: "Study", icon: StudyIcon, link: "" },
+  { name: "Visa", icon: VisaIcon, link: "" },
+  { name: "Immigration", icon: ImmigrationIcon, link: "" },
+  { name: "Medical", icon: MedicalIcon, link: "" },
+  { name: "Vacation Package", icon: VocationPackageIcon, link: "" },
 ];
 
 export const FAMILY_TRIP_DATA = [
@@ -53,10 +57,10 @@ export const FLIGTHS_DATA = [
   },
   {
     title: "In flight meal",
-    icon: <FlightMealIcon />
+    icon: <FlightMealIcon />,
   },
   {
     title: "USB Port",
-    icon: <USBportIcon />
-  }
+    icon: <USBportIcon />,
+  },
 ];

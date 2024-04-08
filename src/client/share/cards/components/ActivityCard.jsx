@@ -1,13 +1,13 @@
-import React from 'react'
-import CardContainer from '../container/CardContainer'
-import MapPointer from '../../../../../share/svg/MapPointer';
-import StarIcon from '../../../../../share/svg/Star';
+import React from "react";
+import CardContainer from "../container/CardContainer";
+import MapPointer from "../../svg/MapPointer";
+import StarIcon from "../../svg/Star";
 // import BedIcon from '../../../../../share/svg/Bed';
-import Activities from '../../../assets/Activities.png';
-import NairaIcon from '../../../../../share/svg/Naira';
-import Clock from '../../../../../share/svg/Clock';
-import CircleUpIcon from '../../../../../share/svg/CircleUp';
-import CircleDownIcon from '../../../../../share/svg/CircleDown';
+import Activities from "./../../../../client/assets/Activities.png";
+import NairaIcon from "../../svg/Naira";
+import Clock from "../../svg/Clock";
+import CircleUpIcon from "../../svg/CircleUp";
+import CircleDownIcon from "../../svg/CircleDown";
 
 const ActivityCard = () => {
   return (
@@ -67,13 +67,13 @@ const ActivityCard = () => {
                 <p className="text-blue">See more</p>
               </div>
             </div>
-            <div className='flex items-center space-x-3'>
+            <div className="flex items-center space-x-3">
               <button className="bg-darkBlue text-white text-[12px] rounded-md p-2">
                 Day1 - (2)
               </button>
-              <div className='space-y-2'>
-                <CircleUpIcon/>
-                <CircleDownIcon/>
+              <div className="space-y-2">
+                <CircleUpIcon />
+                <CircleDownIcon />
               </div>
             </div>
           </div>
@@ -81,7 +81,7 @@ const ActivityCard = () => {
           <hr />
 
           <div className="flex items-end justify-between text-blue mt-4 font-semibold text-[14px]">
-            <div className="flex items-center space-x-4">
+            <div className="flex items-center space-x-8">
               <p>Activity details</p>
               <p>Price details</p>
             </div>
@@ -91,6 +91,6 @@ const ActivityCard = () => {
       </div>
     </CardContainer>
   );
-}
+};
 
-export default ActivityCard
+export default ActivityCard;

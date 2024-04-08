@@ -1,23 +1,30 @@
-import AirplaneTakeoffIcon from "../../../../../share/svg/AirplaneTakeoff";
-import LandingPlane from "../../../../../share/svg/LandingPlane";
-import NairaIcon from "../../../../../share/svg/Naira";
-import { FLIGTHS_DATA } from "../../../constant/data";
-import AirlineLogo from "../../../assets/AirlineLogo.png";
+import { Button } from "@heathmont/moon-core-tw";
+import { useLocation } from "react-router-dom";
+import AirplaneTakeoffIcon from "../../../share/svg/AirplaneTakeoff";
+import LandingPlane from "../../../share/svg/LandingPlane";
+import NairaIcon from "../../../share/svg/Naira";
 import CardContainer from "../container/CardContainer";
-import usersData from './../../../../constant/searchFlight.json';
+import { FLIGTHS_DATA } from "../../../components/landingPage/constant/data";
+import useFlight from "../../../context/flightsContext/useFlight";
 
-export const FlightCard = () => {
+export const FlightCard = (props) => {
+  const router = useLocation();
+  const { pathname } = router;
+  const { handleAddFlightCard } = useFlight();
+  const { iataCode, logoUrl, airLineName, currencyCode, unit, nanos } = props.value;
+  const handleAddFlightToItinerary = () => {
+    handleAddFlightCard(props.value)
+  }
 
-  console.log(usersData);
   return (
-    <CardContainer>
+    <CardContainer id={iataCode}>
       <div className="flex items-center justify-between px-6">
         <div className="flex items-center justify-start space-x-3">
-          <img src={AirlineLogo} alt="Airline Logo alt" />
+          <img src={logoUrl} alt="Airline Logo alt" className="h-16 w-16" />
           <div>
-            <p className="font-bold text-black text-xl">American Airlines</p>
+            <p className="font-bold text-black text-xl">{airLineName}</p>
             <div className="flex items-center space-x-1">
-              <p className="text-[12px] text-gray-500">AA-829</p>
+              <p className="text-[12px] text-gray-500">{`${currencyCode} ${unit}`}</p>
               <p>.</p>
               <button className="bg-darkBlue text-white text-[12px] rounded-md p-2">
                 First Class
@@ -58,12 +65,11 @@ export const FlightCard = () => {
 
         <div className="flex items-center">
           <NairaIcon />
-          <p className="font-bold text-3xl">123,450.00</p>
+          <p className="font-bold text-3xl">{`${nanos.toLocaleString()}.00`}</p>
         </div>
       </div>
 
       <hr className="w-full mt-4" />
-
       <div className="flex items-center p-6 space-x-4 text-gray-600 text-[14px] ">
         <p className="">Facilities:</p>
         {FLIGTHS_DATA.map((value, index) => (
@@ -77,11 +83,21 @@ export const FlightCard = () => {
       <hr className="w-full" />
 
       <div className="flex items-center justify-between text-blue mt-4 px-6 font-semibold text-[14px]">
-        <div className="flex items-center space-x-2">
+        <div className="flex items-center space-x-8">
           <p>Flight details</p>
           <p>Price details</p>
         </div>
-        <p>Edit details</p>
+
+        {pathname === "/" ? (
+          <p>Edit details</p>
+        ) : (
+          <Button
+            onClick={handleAddFlightToItinerary}
+            className="text-white bg-blue font-bold rounded-lg shadow-md"
+          >
+            Add Flight
+          </Button>
+        )}
       </div>
     </CardContainer>
   );

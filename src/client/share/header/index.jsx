@@ -1,26 +1,14 @@
 import React from "react";
 import HeaderContainer from "./HeaderContainer";
 import Logo from "./assets/logo.png";
-import { GenericSearch } from "@heathmont/moon-icons-tw";
 import { HEADER_LINK_DATA } from "./constant/data";
 import { Button } from "@heathmont/moon-core-tw";
 import Avatar from "./assets/Avatar.png";
 import ArrowDownIcon from "../svg/ArrowDown";
 import { useLink } from "../../hooks/useLink";
+import { SearchInput } from "../searchInput";
+import { Link } from "react-router-dom";
 
-
-const SearchBar = () => {
-  return (
-    <div className="flex items-center border px-2 rounded-lg h-[56px] bg-gray-100">
-      <GenericSearch height={25} width={25} color="gray" />
-      <input
-        type="text"
-        className="w-[200px] borderless-input rounded-md pl-2 h-12 borderless-input bg-gray-100"
-        placeholder="Search"
-      />
-    </div>
-  );
-};
 
 const NavItem = ({ link, handleClick, click }) => {
   const isActive = link.name === click;
@@ -44,10 +32,12 @@ const Header = () => {
   return (
     <HeaderContainer>
       <div className="flex items-center justify-between w-[1920px] h-16">
-        <div className="flex space-x-3">
-          <img src={Logo} alt="logo alt" />
-          <SearchBar />
-        </div>
+        <Link to="/">
+          <div className="flex space-x-3">
+            <img src={Logo} alt="logo alt" />
+            <SearchInput width="w-[200px]" />
+          </div>
+        </Link>
         <div className="flex items-center">
           <div className="flex items-center space-x-4 pr-4">
             {HEADER_LINK_DATA.slice(0, 5).map((link, index) => (
